@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Global Service Technology - профессиональное обслуживание ПК, принтеров и видеонаблюдения.">
+    <meta name="keywords" content="обслуживание ПК, принтеры, видеонаблюдение, GST">
+    <title>Global Service Technology (GST) - Обслуживание техники</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Global Service Technology</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Главная страница -->
+<section id="home" class="banner">
+    <div class="container">
+        <h2>Профессиональное обслуживание вашего оборудования</h2>
+        <p>Услуги по обслуживанию ПК, принтеров и видеонаблюдения для дома и бизнеса.</p>
+        <button onclick="window.location.href='#services'">Заказать услугу онлайн</button>
+        <div class="chat-widget">
+            <button>Консультация онлайн</button>
+        </div>
+    </div>
+</section>
+
+<!-- Услуги -->
+<section id="services">
+    <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="service">
+            <h3>Обслуживание ПК</h3>
+            <p>Установка, настройка, ремонт и обновление ПК.</p>
+            <button onclick="window.location.href='#contact'">Заказать услугу</button>
+        </div>
+        <div class="service">
+            <h3>Обслуживание принтеров</h3>
+            <p>Диагностика, заправка картриджей, настройка и ремонт принтеров.</p>
+            <button onclick="window.location.href='#contact'">Заказать услугу</button>
+        </div>
+        <div class="service">
+            <h3>Системы видеонаблюдения</h3>
+            <p>Проектирование, установка и обслуживание видеонаблюдения.</p>
+            <button onclick="window.location.href='#contact'">Заказать услугу</button>
+        </div>
+    </div>
+</section>
+
+<!-- О компании -->
+<section id="about">
+    <div class="container">
+        <h2>О компании</h2>
+        <p>Global Service Technology (GST) — это надежный партнер в обслуживании ПК, принтеров и систем видеонаблюдения для бизнеса и частных клиентов.</p>
+    </div>
+</section>
+
+<!-- Отзывы -->
+<section id="reviews">
+    <div class="container">
+        <h2>Отзывы клиентов</h2>
+        <div class="review">
+            <p>"Отличное обслуживание, быстро починили мой компьютер!" — Иван, Москва</p>
+        </div>
+        <div class="review">
+            <p>"Очень довольны качеством обслуживания и установкой системы видеонаблюдения." — Алексей, Санкт-Петербург</p>
+        </div>
+        <button>Оставить отзыв</button>
+    </div>
+</section>
+
+<!-- Контакты -->
+<section id="contact">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 (800) 123-45-67</p>
+        <p>Email: info@gst.com</p>
+        <div id="map"></div> <!-- Карта будет встроена позже -->
+        <form action="#" method="POST" id="contact-form">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+    <div class="container">
+        <h2>Часто задаваемые вопросы</h2>
+        <p>Как заказать услугу? — Просто заполните форму на странице "Услуги" или свяжитесь с нами через чат.</p>
+        <p>Какие услуги вы предоставляете? — Мы обслуживаем ПК, принтеры и системы видеонаблюдения.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Global Service Technology</p>
+    </div>
+</footer>
+
+</body>
+</html>

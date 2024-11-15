@@ -1,0 +1,131 @@
+﻿/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Навигация */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Баннер */
+.banner {
+    background: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #e65c00;
+}
+
+/* Секции */
+section {
+    padding: 40px 0;
+}
+
+.service {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service button {
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.service button:hover {
+    background-color: #0097a7;
+}
+
+/* Отзывы */
+.review {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Контакты */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
